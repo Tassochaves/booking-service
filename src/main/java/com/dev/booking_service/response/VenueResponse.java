@@ -9,11 +9,10 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class BookingResponse {
+public class VenueResponse {
 
-    private Long bookingId;
-    private Long userId;
-    private Long eventId;
-    private Long ticketCount;
-    private String ticketPrice;
+    private Long id;
+    private String name;
+    private Long totalCapacity;
+    private String address;
 }
